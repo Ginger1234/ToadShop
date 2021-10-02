@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>img[alt="www.000webhost.com"] {display: none;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Кладовед</title>
+
+    <style>
+    .wrap {
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+    }
+    img {
+      position: absolute;
+      top: 300;
+      left: 50%;
+      margin-left: -200px;
+    }
+    .left {
+      float: left;
+      width: 40%;
+    }
+    .right {
+      float: right;
+      width: 40%;
+    }
+    .left:before, .right:before {
+        content: "";
+        width: 125px;
+        height: 250px;
+    }
+    .left:before {
+        float: right;
+    }
+    .right:before {
+      float: left;
+    }
+      .b1 {
+      background: black; /* Синий цвет фона */
+      color: white; /* Белые буквы */
+      font-size: 15pt; /* Размер шрифта в пунктах */
+    }
+    #navbar {
+      margin: 0px 110px;
+      padding: 0px 120px;
+      list-style-type: none;
+      font-size: 25pt;
+      color: white;
+      background: #3f0900;
+     }
+    #navbar li { display: inline; }
+
+    .dropbtn {
+    background-color: #3f0900;
+    color: white;
+    font-family: Gabriola, sans-serif;
+    padding: 16px;
+    font-size: 25pt;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D2691E;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    background-color: #3f0900;
+    color: white;
+    font-family: Gabriola, sans-serif;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #DEB887;}
+    </style>
+    <!-- Bootstrap core CSS -->
+
+    <!-- Custom styles for this template -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<!--- style="background-size: 80%;" --->
+  <body background="https://cdn.pixabay.com/photo/2018/06/09/17/25/trees-3464777_960_720.jpg"; style="background-size: 80%;">
+    <h1  style="font-weight:bold; background-color: rgba(256, 256, 256, 0.3); font-family: Gabriola, sans-serif; font-size: 80pt; margin: 0px 110px; padding: 10px 250px; color: #3f0900; background-color: transparant;">  КЛАДОВЕДЕНИЕ  </h1>
+    <ul id="navbar">
+      <li><a href="/klad"; style="color: white;  font-family: Gabriola, sans-serif;">Главная</a></li>
+      <div class="dropdown">
+      <button class="dropbtn">Хроники чудес</button>
+        <div class="dropdown-content">
+        <a href="/first">Link 1</a>
+        <a href="/second">Link 2</a>
+        <a href="/third">Link 3</a>
+        <a href="/forth">Link 4</a>
+        <a href="/fivth">Link 5</a>
+        <a href="/sixth">Link 6</a>
+
+
+        </div>
+      </div>
+      <li><a href="/rules"; style="color: white;  font-family: Gabriola, sans-serif;"> Правила для взрослых кладоискателей</a></li>
+      <div class="dropdown">
+      <button class="dropbtn">О нас</button>
+        <div class="dropdown-content">
+        <a href="/about">Кладоведы</a>
+        <a href="/contacts">Поталковать с кладоведом</a>
+        </div>
+      </div>
+       <li><a href="/anketa"; style="color: white;  font-family: Gabriola, sans-serif;"> О Вас</a></li>
+    </ul>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+
+        </nav>
+      </div>
+      <div class="wrap">
+        <p style="font-weight:bold; font-family: Gabriola, sans-serif; background-color: rgba(256, 256, 256, 0.7); font-size: 20pt; margin: 0px 0px; padding: 0px 20px; color: #3f0900; background-color: transparant;">Одинаковых сценариев не может быть! Люди разные, волшебные миры у них тоже разные! <br> Для начала вернитесь в свое детство: в нем вы были волшебником, прекрасной царевной, феей, храбрым воином, становились невидимым, летали, побеждали злодеев… Ваш ребенок тоже знает, что он особенный, что именно к нему со дня на день прилетит фея и подарит подарок, именно ему вот-вот придется пройти препятствия и добыть волшебные сокровища пиратов! </p>
+        <img src="cats/first/b.jpg" width="35%"/>
+          <div class="left">
+            <p style="font-weight:bold; font-family: Gabriola, sans-serif; background-color: rgba(256, 256, 256, 0.4); font-size: 20pt; margin: 0px 0px; padding: 0px 20px; color: #3f0900; background-color: transparant;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus </p>
+          </div>
+          <div class="right">
+            <p style="font-weight:bold; font-family: Gabriola, sans-serif; background-color: rgba(256, 256, 256, 0.4); font-size: 20pt; margin: 0px 0px; padding: 0px 20px; color: #3f0900; background-color: transparant;">Pellentesque habitant morbi tristique senectus et utpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+          </div>
+        <img style="margin: 150px 150px; padding: 0px 50px;" src="cats/first/d.jpg" width="41.5%"/>
+        <img style="margin: 200px -620px; padding: 0px 50px;" src="cats/first/a.jpg" width="41%"/>
+      </div>
+
+     <!-- <form>
+          <p><button  class="b1" style="width:300px;height:75px" formaction="cat">Случайная история про Клад</button></p>
+
+      </form> -->
+
+
+      <footer class="footer">
+        <p>&copy; 2019 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+  </body>
+</html>
